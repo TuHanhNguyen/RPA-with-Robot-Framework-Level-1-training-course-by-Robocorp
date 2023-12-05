@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.12 on win32)" generated="20231201 00:34:11.325" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\tu\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open the intranet website">
+<msg timestamp="20231201 00:34:11.601" level="FAIL">No keyword with name 'Open the intranet website' found.</msg>
+<status status="FAIL" starttime="20231201 00:34:11.601" endtime="20231201 00:34:11.601"/>
+</kw>
+<kw name="Log in">
+<status status="NOT RUN" starttime="20231201 00:34:11.602" endtime="20231201 00:34:11.602"/>
+</kw>
+<kw name="Download the excel file">
+<status status="NOT RUN" starttime="20231201 00:34:11.606" endtime="20231201 00:34:11.607"/>
+</kw>
+<kw name="Fill and submit the form">
+<status status="NOT RUN" starttime="20231201 00:34:11.610" endtime="20231201 00:34:11.610"/>
+</kw>
+<kw name="Download the excel file">
+<msg timestamp="20231201 00:34:20.436" level="FAIL">No keyword with name 'Download the excel file' found.</msg>
+<status status="FAIL" starttime="20231201 00:34:20.436" endtime="20231201 00:34:20.436"/>
+</kw>
+<kw name="Download" library="RPA.HTTP">
+<arg>url</arg>
+<doc>An alias for the ``HTTP Get`` keyword.</doc>
+<msg timestamp="20231201 00:35:20.607" level="FAIL">InvalidSchema: No connection adapters were found for ':/url'</msg>
+<status status="FAIL" starttime="20231201 00:35:20.602" endtime="20231201 00:35:20.610"/>
+</kw>
+<status status="PASS" starttime="20231201 00:34:11.373" endtime="20231201 00:41:39.985"/>
+</kw>
+<status status="PASS" starttime="20231201 00:34:11.372" endtime="20231201 00:41:39.986"/>
+</test>
+<status status="PASS" starttime="20231201 00:34:11.327" endtime="20231201 00:41:39.987"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

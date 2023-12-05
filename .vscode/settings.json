@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "d:/09_RPA/02_Lv1_Robot Framework/my-rsb-robot/."
+    ],
+    "python.terminal.activateEnvironment": false
+}
